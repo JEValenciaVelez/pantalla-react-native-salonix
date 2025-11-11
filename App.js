@@ -3,9 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { StatusBar } from 'expo-status-bar';
 import MenuScreen from './screens/MenuScreen';
-import AjiacoScreen from './screens/AjiacoScreen';
-import ArepaChocoloScreen from './screens/ArepaChocoloScreen';
-import BandejaPaisaScreen from './screens/BandejaPaisaScreen';
+import BeautyRitualScreen from './screens/BeautyRitualScreen';
+import HairStylingScreen from './screens/HairStylingScreen';
+import HinduMakeupScreen from './screens/HinduMakeupScreen';
 
 const Stack = createStackNavigator();
 
@@ -17,7 +17,7 @@ export default function App() {
         initialRouteName="Menu"
         screenOptions={{
           headerStyle: {
-            backgroundColor: '#8B4513',
+            backgroundColor: '#7e22ce',
           },
           headerTintColor: '#fff',
           headerTitleStyle: {
@@ -28,22 +28,22 @@ export default function App() {
         <Stack.Screen 
           name="Menu" 
           component={MenuScreen} 
-          options={{ title: 'Menú del Restaurante' }}
+          options={{ title: 'Servicios del Salón' }}
         />
         <Stack.Screen 
-          name="Ajiaco" 
-          component={AjiacoScreen} 
-          options={{ title: 'Ajiaco' }}
+          name="ritual-de-belleza" 
+          component={BeautyRitualScreen} 
+          options={{ title: 'Ritual de Belleza' }}
         />
         <Stack.Screen 
-          name="ArepaChocolo" 
-          component={ArepaChocoloScreen} 
-          options={{ title: 'Arepa Chocolo' }}
+          name="hair-styling" 
+          component={HairStylingScreen} 
+          options={{ title: 'Hair Styling' }}
         />
         <Stack.Screen 
-          name="BandejaPaisa" 
-          component={BandejaPaisaScreen} 
-          options={{ title: 'Bandeja Paisa' }}
+          name="hindu-makeup" 
+          component={HinduMakeupScreen} 
+          options={{ title: 'Hindu Makeup' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

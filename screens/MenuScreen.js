@@ -6,26 +6,26 @@ const MenuScreen = ({ navigation }) => {
   const dishes = [
     {
       id: 1,
-      name: 'Ajiaco',
-      price: '15.000',
-      image: require('../assets/ajiaco.png'),
-      screen: 'Ajiaco',
-      description: 'Sopa tradicional bogotana con pollo, papa y maíz'
+      name: 'cejas hindu',
+      price: '20.000',
+      image: require('../assets/hindu.jpg'),
+      screen: 'hindu-makeup',
+      description: 'depilacion cejas tradicional hindú personalizado'
     },
     {
       id: 2,
-      name: 'Arepa Chocolo',
+      name: 'ritual de belleza',
       price: '10.000',
-      image: require('../assets/arepa-chocolo.png'),
-      screen: 'ArepaChocolo',
-      description: 'Arepa dulce de maíz tierno con queso'
+      image: require('../assets//maquillaje.jpeg'),
+      screen: 'ritual-de-belleza',
+      description: 'Ritual de belleza personalizado'
     },
     {
       id: 3,
-      name: 'Bandeja Paisa',
+      name: 'peluqueria',
       price: '25.000',
-      image: require('../assets/bandeja-paisa.png'),
-      screen: 'BandejaPaisa',
+      image: require('../assets/peluqqueria.jpeg'),
+      screen: 'hair-styling',
       description: 'Plato típico antioqueño con frijoles, arroz, carne y más'
     }
   ];
@@ -52,8 +52,8 @@ const MenuScreen = ({ navigation }) => {
         contentContainerStyle={styles.contentContainer}
       >
         <View style={styles.header}>
-          <Text style={styles.title}>¡Bienvenido a nuestro Restaurante!</Text>
-          <Text style={styles.subtitle}>Deléitate con nuestros platos típicos colombianos</Text>
+          <Text style={styles.title}>¡Bienvenido a salonix!</Text>
+          <Text style={styles.subtitle}>Deléitate con nuestros servicios de belleza</Text>
         </View>
         
         <View style={styles.menuContainer}>
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     ...(Platform.OS === 'web' ? { flexGrow: 1 } : {}),
   },
   header: {
-    backgroundColor: '#8B4513',
+    backgroundColor: '#7e22ce',
     padding: 20,
     alignItems: 'center',
   },
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   dishPrice: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#8B4513',
+    color: '#a855f7',
   },
 });
 

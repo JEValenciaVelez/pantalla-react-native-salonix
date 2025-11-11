@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "restaurante",
-    "slug": "restaurante",
+    "name": "salonix",
+    "slug": "salonix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
