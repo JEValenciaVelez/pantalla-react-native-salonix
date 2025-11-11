@@ -7,7 +7,7 @@ const MenuScreen = ({ navigation }) => {
     {
       id: 1,
       name: 'cejas hindu',
-      price: '20.000',
+      price: '50.000',
       image: require('../assets/hindu.jpg'),
       screen: 'hindu-makeup',
       description: 'depilacion cejas tradicional hindú personalizado'
@@ -15,7 +15,7 @@ const MenuScreen = ({ navigation }) => {
     {
       id: 2,
       name: 'ritual de belleza',
-      price: '10.000',
+      price: '250.000',
       image: require('../assets//maquillaje.jpeg'),
       screen: 'ritual-de-belleza',
       description: 'Ritual de belleza personalizado'
@@ -23,7 +23,7 @@ const MenuScreen = ({ navigation }) => {
     {
       id: 3,
       name: 'peluqueria',
-      price: '25.000',
+      price: '80.000',
       image: require('../assets/peluqqueria.jpeg'),
       screen: 'hair-styling',
       description: 'Plato típico antioqueño con frijoles, arroz, carne y más'
